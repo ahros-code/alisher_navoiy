@@ -6,7 +6,8 @@
     "Asarlari",
     "Ilmiy tadqiqotlar",
     "Yangiliklar",
-    "Korpus haqida"
+    "Korpus haqida",
+    "Hikmatlar"
   ],
   "Home": {
     "bio": "Alisher Navoiy tarjimayi holi, hayoti va ijodi",
@@ -30,6 +31,33 @@
     "genres": "Janrlar",
     "content_of_devans": "Devonlar tarkibi",
     "all_button": "Hammasi"
+  },
+  "Hikmatlar": {
+    "hikmat_word": "Hikmatlar"
+  },
+  "Col1": {
+    "name": "Qidiruv shakli",
+    "text_1": "lingvistik birlik",
+    "text_2": "faqat shu shaklni topadi",
+    "text_3": "barg"
+  },
+  "Col2": {
+    "name": "Imkoniyati",
+    "text_1": "lingvistik birlik",
+    "text_2": "so‘zshakl ichidan topadi",
+    "text_3": "kah*barg*durur"
+  },
+  "Col3": {
+    "name": "Natijaga misol",
+    "text_1": "lingvistik birlik",
+    "text_2": "shu shakl bilan tugagan birliklarni topadi",
+    "text_3": "gul*barg"
+  },
+  "Col4": {
+    "name": "Natijaga misol",
+    "text_1": "lingvistik birlik",
+    "text_2": "shu qism bilan boshlanuvchi leksik birliklarni topadi",
+    "text_3": "barg*idin"
   },
   "search": "Qidiruv",
   "employee": "Xodimlar haqida",

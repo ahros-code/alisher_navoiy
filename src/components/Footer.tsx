@@ -54,20 +54,28 @@ const Footer = () => {
                 </div>
                 <div>
                   <Link
-                    href={`/${locale}/tadqiqotlar`}
+                    href={`/${locale}/hikmatlar`}
                     className="text-maincolor"
                   >
                     {n("4")}
                   </Link>
                 </div>
                 <div>
-                  <Link href={`/${locale}/news`} className="text-maincolor">
+                  <Link
+                    href={`/${locale}/tadqiqotlar`}
+                    className="text-maincolor"
+                  >
                     {n("5")}
                   </Link>
                 </div>
                 <div>
-                  <Link href={`/${locale}/about`} className="text-maincolor">
+                  <Link href={`/${locale}/news`} className="text-maincolor">
                     {n("6")}
+                  </Link>
+                </div>
+                <div>
+                  <Link href={`/${locale}/about`} className="text-maincolor">
+                    {n("7")}
                   </Link>
                 </div>
               </div>

@@ -1,43 +1,71 @@
 {
-    "Navbar": [
-        "Home page",
-        "Biography",
-        "Devans",
-        "Works",
-        "Scientific research on CL",
-        "News",
-        "About this corpus"
-    ],
-    "Home": {
-        "bio": "Biography of Alisher Navoi",
-        "button_more": "More",
-        "hero_desc": "Author's corpus",
-        "year": "year",
-        "years": "year",
-        "age": "age",
-        "ages": "ages",
-        "author": "Author",
-        "created": "Time of creation",
-        "name": "Name",
-        "auditory_age": "Age",
-        "text_type": "Text type",
-        "alisher": "Alī Shīr Navāī"
-    },
-    "Devonlar": {
-        "text_type": "Text type",
-        "age_type": "By age",
-        "search_number": "Search by number",
-        "genres": "Genres",
-        "content_of_devans": "Content of devans",
-        "all_button": "All"
-    },
-    "search": "Search",
-    "employee": "About employees",
-    "Footer": {
-        "version": "Version 1",
-        "contact": "For reference",
-        "employee": "Employees",
-        "questions": "Questions, answers",
-        "ruknlar": "Columns"
-    }
+  "Navbar": [
+    "Home page",
+    "Biography",
+    "Devans",
+    "Works",
+    "Scientific research on CL",
+    "News",
+    "About this corpus",
+    "Proverbs"
+  ],
+  "Home": {
+    "bio": "Biography of Alisher Navoi",
+    "button_more": "More",
+    "hero_desc": "Author's corpus",
+    "year": "year",
+    "years": "year",
+    "age": "age",
+    "ages": "ages",
+    "author": "Author",
+    "created": "Time of creation",
+    "name": "Name",
+    "auditory_age": "Age",
+    "text_type": "Text type",
+    "alisher": "Alī Shīr Navāī"
+  },
+  "Devonlar": {
+    "text_type": "Text type",
+    "age_type": "By age",
+    "search_number": "Search by number",
+    "genres": "Genres",
+    "content_of_devans": "Content of devans",
+    "all_button": "All"
+  },
+  "Hikmatlar": {
+    "hikmat_word": "Proverbs"
+  },
+  "Col1": {
+    "name": "Search Form",
+    "text_1": "linguistic unit",
+    "text_2": "finds only this form",
+    "text_3": "leaf"
+  },
+  "Col2": {
+    "name": "Capability",
+    "text_1": "linguistic unit",
+    "text_2": "finds within word form",
+    "text_3": "kah*leaf*durur"
+  },
+  "Col3": {
+    "name": "Example Result",
+    "text_1": "linguistic unit",
+    "text_2": "finds units that end with this form",
+    "text_3": "flower*leaf"
+  },
+  "Col4": {
+    "name": "Example Result",
+    "text_1": "linguistic unit",
+    "text_2": "finds lexical units starting with this part",
+    "text_3": "leaf*idin"
+  },
+  "search": "Search",
+  "employee": "About employees",
+  "Footer": {
+    "version": "Version 1",
+    "contact": "For reference",
+    "employee": "Employees",
+    "questions": "Questions, answers",
+    "ruknlar": "Columns"
+  }
 }

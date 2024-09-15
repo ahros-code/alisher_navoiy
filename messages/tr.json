@@ -1,43 +1,71 @@
 {
-    "Navbar": [
-        "Anasayfa",
-        "Navoi'nin Biyografisi",
-        "Devonları",
-        "Eserleri",
-        "Bilimsel araştırma",
-        "Haberler",
-        "Derlem hakkında"
-    ],
-    "Home": {
-        "bio": "Alisher Navoi'nin biyografisi, hayatı ve yaratıcılığı",
-        "button_more": "Daha",
-        "hero_desc": "Yazarlık derlemi",
-        "year": "yıl",
-        "years": "yıllar",
-        "age": "yaş",
-        "ages": "yaşlar",
-        "author": "Yazar",
-        "created": "Yaratılış zamanı",
-        "name": "İsim",
-        "auditory_age": "Yaş",
-        "text_type": "Metin türü",
-        "alisher": "Ali Şir Nevai"
-    },
-    "Devonlar": {
-        "text_type": "Metin türü",
-        "age_type": "Yaşa göre",
-        "search_number": "Numaraya göre ara",
-        "genres": "Türler",
-        "content_of_devans": "Devanların içeriği",
-        "all_button": "Tümü"
-    },
-    "search": "Aramak",
-    "employee": "Çalışanlar hakkında",
-    "Footer": {
-        "version": "Korpusun 1. Versiyonu",
-        "contact": "Referans için",
-        "employee": "Çalışanlar",
-        "questions": "Sorular, yanıtlar",
-        "ruknlar": "Sütunlar"
-    }
+  "Navbar": [
+    "Anasayfa",
+    "Navoi'nin Biyografisi",
+    "Devonları",
+    "Eserleri",
+    "Bilimsel araştırma",
+    "Haberler",
+    "Derlem hakkında",
+    "Atasözleri"
+  ],
+  "Home": {
+    "bio": "Alisher Navoi'nin biyografisi, hayatı ve yaratıcılığı",
+    "button_more": "Daha",
+    "hero_desc": "Yazarlık derlemi",
+    "year": "yıl",
+    "years": "yıllar",
+    "age": "yaş",
+    "ages": "yaşlar",
+    "author": "Yazar",
+    "created": "Yaratılış zamanı",
+    "name": "İsim",
+    "auditory_age": "Yaş",
+    "text_type": "Metin türü",
+    "alisher": "Ali Şir Nevai"
+  },
+  "Devonlar": {
+    "text_type": "Metin türü",
+    "age_type": "Yaşa göre",
+    "search_number": "Numaraya göre ara",
+    "genres": "Türler",
+    "content_of_devans": "Devanların içeriği",
+    "all_button": "Tümü"
+  },
+  "Hikmatlar": {
+    "hikmat_word": "Atasözleri"
+  },
+  "Col1": {
+    "name": "Arama Formu",
+    "text_1": "dilsel birim",
+    "text_2": "sadece bu biçimi bulur",
+    "text_3": "yaprak"
+  },
+  "Col2": {
+    "name": "Yeteneği",
+    "text_1": "dilsel birim",
+    "text_2": "sözcük biçimi içinde bulur",
+    "text_3": "kah*yaprak*durur"
+  },
+  "Col3": {
+    "name": "Sonuç Örneği",
+    "text_1": "dilsel birim",
+    "text_2": "bu biçimle biten birimleri bulur",
+    "text_3": "çiçek*yaprak"
+  },
+  "Col4": {
+    "name": "Sonuç Örneği",
+    "text_1": "dilsel birim",
+    "text_2": "bu kısımla başlayan sözcük birimlerini bulur",
+    "text_3": "yaprak*idin"
+  },
+  "search": "Aramak",
+  "employee": "Çalışanlar hakkında",
+  "Footer": {
+    "version": "Korpusun 1. Versiyonu",
+    "contact": "Referans için",
+    "employee": "Çalışanlar",
+    "questions": "Sorular, yanıtlar",
+    "ruknlar": "Sütunlar"
+  }
 }

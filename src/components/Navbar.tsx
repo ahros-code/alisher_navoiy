@@ -62,6 +62,10 @@ const Navbar = () => {
       inputRef.current.blur();
     }
   };
+  const col1 = useTranslations("Col1");
+  const col2 = useTranslations("Col2");
+  const col3 = useTranslations("Col3");
+  const col4 = useTranslations("Col4");
   return (
     <header className={`flex justify-center items-center    z-[100]`}>
       <nav
@@ -108,11 +112,13 @@ const Navbar = () => {
                         <thead>
                           <tr className="bg-blue-500 text-white">
                             <th className="py-2 px-4 text-left w-10">
-                              Qidiruv shakli
+                              {col1("name")}
                             </th>
-                            <th className="py-2 px-4 text-left">Imkoniyati</th>
                             <th className="py-2 px-4 text-left">
-                              Natijaga misol
+                              {col2("name")}
+                            </th>
+                            <th className="py-2 px-4 text-left">
+                              {col3("name")}
                             </th>
                           </tr>
                         </thead>
@@ -120,53 +126,45 @@ const Navbar = () => {
                           <tr className="bg-white border-b border-blue-500">
                             <td className="py-2 px-4 text-red-500">
                               {`"`}
-                              <span className="text-black">bla bla bla</span>
+                              <span className="text-black">
+                                {col1("text_1")}
+                              </span>
                               {`"`}
                             </td>
-                            <td className="py-2 px-4">
-                              Lorem ipsum dolor sit amet.
-                            </td>
-                            <td className="py-2 px-4">
-                              Lorem ipsum dolor sit amet.
-                            </td>
+                            <td className="py-2 px-4">{col1("text_2")}</td>
+                            <td className="py-2 px-4">{col1("text_3")}</td>
                           </tr>
                           <tr className="bg-white border-b border-blue-500">
                             <td className="py-2 px-4 text-red-500">
-                              <span className="text-black">bla</span>
+                              <span className="text-black">
+                                {col2("text_1")}
+                              </span>
                               {`*`}
                             </td>
-                            <td className="py-2 px-4">
-                              Lorem ipsum dolor sit amet.
-                            </td>
-                            <td className="py-2 px-4">
-                              Lorem ipsum dolor sit amet.
-                            </td>
+                            <td className="py-2 px-4">{col2("text_2")}</td>
+                            <td className="py-2 px-4">{col2("text_3")}</td>
                           </tr>
                           <tr className="bg-white border-b border-blue-500">
                             <td className="py-2 px-4 text-red-500">
                               {`*`}
-                              <span className="text-black">bla</span>
+                              <span className="text-black">
+                                {col3("text_1")}
+                              </span>
                             </td>
-                            <td className="py-2 px-4">
-                              Lorem ipsum dolor sit amet.
-                            </td>
-                            <td className="py-2 px-4">
-                              Lorem ipsum dolor sit amet.
-                            </td>
+                            <td className="py-2 px-4">{col3("text_2")}</td>
+                            <td className="py-2 px-4">L{col3("text_3")}</td>
                           </tr>
 
                           <tr className="bg-white border-b border-blue-500">
                             <td className="py-2 px-4 text-red-500">
                               {`*`}
-                              <span className="text-black">bla</span>
+                              <span className="text-black">
+                                {col4("text_1")}
+                              </span>
                               {`*`}
                             </td>
-                            <td className="py-2 px-4">
-                              Lorem ipsum dolor sit amet.
-                            </td>
-                            <td className="py-2 px-4">
-                              Lorem ipsum dolor sit amet.
-                            </td>
+                            <td className="py-2 px-4">{col4("text_2")}</td>
+                            <td className="py-2 px-4">{col4("text_3")}</td>
                           </tr>
                         </tbody>
                       </table>
@@ -190,57 +188,53 @@ const Navbar = () => {
                 className="absolute top-10 right-0 cursor-pointer w-auto h-auto shadow  bg-white z-50 flex justify-center items-center rounded-tl-[100px] rounded-bl-[100px] rounded-br-[100px] overflow-hidden border-4 border-blue-500"
               >
                 <div className="w-max h-full px-10 p-5">
-                  <table className="w-full    mx-auto">
+                  <table className="w-full mx-auto">
                     <thead>
                       <tr>
-                        <th className="py-2 px-4 text-left ">Qidiruv shakli</th>
-                        <th className="py-2 px-4 text-left">Imkoniyati</th>
-                        <th className="py-2 px-4 text-left">Natijaga misol</th>
+                        <th className="py-2 px-4 text-left ">{col1("name")}</th>
+                        <th className="py-2 px-4 text-left">{col2("name")}</th>
+                        <th className="py-2 px-4 text-left">{col3("name")}</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr className="bg-white border-b border-blue-500">
                         <td className="py-2 px-4 text-red-500">
                           {`"`}
-                          <span className="text-black">lingvistik birlik</span>
+                          <span className="text-black">{col1("text_1")}</span>
                           {`"`}
                         </td>
-                        <td className="py-2 px-4">faqat shu shaklni topadi</td>
+                        <td className="py-2 px-4">{col1("text_2")}</td>
                         <td className="py-2 px-4">
                           {`"`}
-                          <span>barg</span>
+                          <span>{col1("text_3")}</span>
                           {`"`}
                         </td>
                       </tr>
                       <tr className="bg-white border-b border-blue-500">
                         <td className="py-2 px-4 text-red-500">
-                          <span className="text-black">lingvistik birlik</span>
+                          <span className="text-black">{col2("text_1")}</span>
                           {`*`}
                         </td>
-                        <td className="py-2 px-4">so‘zshakl ichidan topadi</td>
-                        <td className="py-2 px-4">kah*barg*durur</td>
+                        <td className="py-2 px-4">{col2("text_2")}</td>
+                        <td className="py-2 px-4">{col2("text_3")}</td>
                       </tr>
                       <tr className="bg-white border-b border-blue-500">
                         <td className="py-2 px-4 text-red-500">
                           {`*`}
-                          <span className="text-black">lingvistik birlik</span>
+                          <span className="text-black">{col3("text_1")}</span>
                         </td>
-                        <td className="py-2 px-4">
-                          shu shakl bilan tugagan birliklarni topadi
-                        </td>
-                        <td className="py-2 px-4">gul*barg</td>
+                        <td className="py-2 px-4">{col3("text_2")}</td>
+                        <td className="py-2 px-4">{col3("text_3")}</td>
                       </tr>
 
                       <tr className="bg-white border-b border-blue-500">
                         <td className="py-2 px-4 text-red-500">
                           {`*`}
-                          <span className="text-black">lingvistik birlik</span>
+                          <span className="text-black">{col4("text_1")}</span>
                           {`*`}
                         </td>
-                        <td className="py-2 px-4">
-                          shu qism bilan boshlanuvchi leksik birliklarni topadi
-                        </td>
-                        <td className="py-2 px-4">barg*idin</td>
+                        <td className="py-2 px-4">{col4("text_2")}</td>
+                        <td className="py-2 px-4">{col4("text_3")}</td>
                       </tr>
                     </tbody>
                   </table>

@@ -43,4 +43,10 @@ export const navbar = [
     name: "Korpus haqida",
     slug: "/about",
   },
+  {
+    id: 8,
+    icon: <ScrollTextIcon strokeWidth={1} />,
+    name: "Hikmatlar",
+    slug: "/hikmatlar",
+  },
 ];
