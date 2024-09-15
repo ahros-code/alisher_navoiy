@@ -1,0 +1,43 @@
+{
+  "Navbar": [
+    "Bosh sahifa",
+    "Tarjimayi hol",
+    "Devonlari",
+    "Asarlari",
+    "Ilmiy tadqiqotlar",
+    "Yangiliklar",
+    "Korpus haqida"
+  ],
+  "Home": {
+    "bio": "Alisher Navoiy tarjimayi holi, hayoti va ijodi",
+    "button_more": "Batafsil",
+    "hero_desc": "Mualliflik korpusi",
+    "year": "yil",
+    "years": "yillar",
+    "age": "yosh",
+    "ages": "yoshlar",
+    "author": "Muallifi",
+    "created": "Yaratilgan vaqti",
+    "name": "Nomi",
+    "auditory_age": "Yosh",
+    "text_type": "Matn tipi",
+    "alisher": "Alisher Navoiy"
+  },
+  "Devonlar": {
+    "text_type": "Matn tipi",
+    "age_type": "Yosh bo'yicha",
+    "search_number": "Raqam bo'yicha qidiruv",
+    "genres": "Janrlar",
+    "content_of_devans": "Devonlar tarkibi",
+    "all_button": "Hammasi"
+  },
+  "search": "Qidiruv",
+  "employee": "Xodimlar haqida",
+  "Footer": {
+    "version": "Korpusning 1-versiyasi",
+    "contact": "Murojaat uchun",
+    "employee": "Xodimlar",
+    "questions": "Savollar, javoblar",
+    "ruknlar": "Ruknlar"
+  }
+}

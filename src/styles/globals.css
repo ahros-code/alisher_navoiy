@@ -1,0 +1,282 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* --main_color: #22C55E; */
+    --main_color: rgb(0, 89, 255);
+    --scrolbar: #4aff03;
+    --scrolbarhover: #4aff0350;
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --scrolbar: #002F34;
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: hsl(212.7, 26.8%, 83.9);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    scroll-behavior: smooth
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    /* -webkit-touch-callout: none; */
+    /* iOS Safari */
+    /* -webkit-user-select: none; */
+    /* Safari */
+    /* -khtml-user-select: none; */
+    /* Konqueror HTML */
+    /* -moz-user-select: none; */
+    /* Firefox */
+    /* -ms-user-select: none; */
+    /* Internet Explorer/Edge */
+    /* user-select: none; */
+  }
+
+  body::-webkit-scrollbar {
+    width: 8px;
+    height: 0;
+    background-color: #F5F5F5;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: var(--main_color);
+  }
+
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scrolbarhover);
+  }
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0;
+  /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+  /* Firefox */
+}
+
+h1 {
+  @apply text-2xl font-semibold;
+}
+
+h2 {
+  @apply text-xl font-semibold;
+}
+
+h3 {
+  @apply text-lg font-semibold;
+}
+
+
+
+.star {
+  fill: white;
+  stroke: white;
+  stroke-width: 50;
+  animation: sparkleAnimation 0.9s infinite;
+  border-radius: 50%;
+  box-shadow:
+    0 0 10px 10px #fff,
+    /* inner white */
+    0 0 20px 20px #fff;
+    /* middle magenta */
+    /* 0 0 280px 90px #fff; */
+  /* outer cyan */
+}
+.leaf-shape {
+  clip-path: polygon(100% 0%, 61% 10%, 66% 24%, 66% 39%, 61% 52%, 50% 62%, 39% 52%, 34% 39%, 34% 24%, 39% 10%);
+}
+
+@keyframes sparkleAnimation {
+  0% {
+    transform: scale(0.1) rotate(0deg);
+  }
+
+  50% {
+    transform: scale(0.8) rotate(90deg);
+  }
+
+  100% {
+    transform: scale(0) rotate(180deg);
+  }
+}
+
+/* Set the style of the sun to be yellow and round */
+.sun {
+  fill: yellow;
+  stroke: yellow;
+  stroke-width: 5;
+  border-radius: 50%;
+}
+
+/* Navbar */
+.activ {
+  /* left: 0; */
+
+  /* position: sticky; */
+  /* top: 0px; */
+  transition: 1s;
+  z-index: 50;
+  opacity: 1;
+  animation: opacity_animate 0.5s;
+  border-radius: 50px;
+  /* border: 1px solid black; */
+}
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('../../data/hidayatullah.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hero_title {
+  font-family: 'MyCustomFont', sans-serif;
+}
+
+
+
+@keyframes image {
+  0% {
+    width: 0;
+    height: 0;
+  }
+
+  100% {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@keyframes opacity_animate {
+  0% {
+    position: relative;
+    top: -100px;
+    opacity: 0;
+  }
+
+  50% {
+    position: relative;
+    top: -50px;
+    opacity: 0.5;
+  }
+
+  100% {
+    position: relative;
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.hover_scale:hover~.img {
+  transform: scale(1.2);
+}
+
+
+
+/*  */
+.img-background-horizontal {
+  background-image: url("../../public/hero.png");
+  object-fit: 100%;
+  background-repeat: no-repeat;
+  background-size: 105vw auto;
+  background-position: 0% 0%;
+  width: 99.5vw;
+  /* border: 2px solid black; */
+  animation: horizontalMove 30s infinite;
+  animation-timing-function: ease;
+}
+
+.bg-image-flower {
+  background-image: url("../../public/bg.png");
+  background-color: rgba(62, 139, 255, 0.06);
+  /* background-repeat: no-repeat; */
+  background-size: 100vw auto;
+  background-position: 0% 0%;
+  width: 99.5vw;
+  /* height: 100%; */
+  animation: horizontalMove 100s infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes horizontalMove {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  50% {
+    background-position: 100% 20%;
+  }
+
+  100% {
+    background-position: 0% 0%;
+  }
+}
