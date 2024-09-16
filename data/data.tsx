@@ -28,25 +28,25 @@ export const navbar = [
   {
     id: 5,
     icon: <ScrollTextIcon strokeWidth={1} />,
+    name: "Hikmatlari",
+    slug: "/hikmatlar",
+  },
+  {
+    id: 6,
+    icon: <ScrollTextIcon strokeWidth={1} />,
     name: "Ilmiy tadqiqotlar",
     slug: "/tadqiqotlar",
   },
   {
-    id: 6,
+    id: 7,
     icon: <ScrollTextIcon strokeWidth={1} />,
     name: "Yangiliklar",
     slug: "/news",
   },
   {
-    id: 7,
+    id: 8,
     icon: <ScrollTextIcon strokeWidth={1} />,
     name: "Korpus haqida",
     slug: "/about",
-  },
-  {
-    id: 8,
-    icon: <ScrollTextIcon strokeWidth={1} />,
-    name: "Hikmatlar",
-    slug: "/hikmatlar",
   },
 ];
