@@ -116,59 +116,73 @@ const Navbar = () => {
                   onMouseLeave={() => setIsInfo(false)}
                   className="absolute top-10 right-0 cursor-pointer w-auto h-auto shadow bg-white z-50 flex justify-center items-center rounded-tl-[100px] rounded-bl-[100px] rounded-br-[100px] overflow-hidden border-4 border-blue-500"
                 >
-                  <div className="w-[800px] h-full px-10 p-5">
+                  <div className="w-[650px] h-full py-5 px-10">
                     <table className="w-full mx-auto">
                       <thead>
                         <tr>
-                          <th className="py-2 px-4 text-left ">
+                          <th className="py-[3px] text-left  text-[15px]">
                             {col1("name")}
                           </th>
-                          <th className="py-2 px-4 text-left">
+                          <th className="  py-[3px] text-left text-[15px]">
                             {col2("name")}
                           </th>
-                          <th className="py-2 px-4 text-left">
+                          <th className=" py-[3px] text-left text-[15px]">
                             {col3("name")}
                           </th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr className="bg-white border-b border-blue-500">
-                          <td className="py-2 px-4 text-red-500">
+                          <td className="py-[5px] text-[14px] text-red-500">
                             {`"`}
                             <span className="text-black">{col1("text_1")}</span>
                             {`"`}
                           </td>
-                          <td className="py-2 px-4">{col1("text_2")}</td>
-                          <td className="py-2 px-4">
+                          <td className="py-[5px] text-[14px]">
+                            {col1("text_2")}
+                          </td>
+                          <td className="py-[5px] text-[14px] ">
                             {`"`}
                             <span>{col1("text_3")}</span>
                             {`"`}
                           </td>
                         </tr>
                         <tr className="bg-white border-b border-blue-500">
-                          <td className="py-2 px-4 text-red-500">
+                          <td className="text-red-500 text-[14px]">
                             <span className="text-black">{col2("text_1")}</span>
                             {`*`}
                           </td>
-                          <td className="py-2 px-4">{col2("text_2")}</td>
-                          <td className="py-2 px-4">{col2("text_3")}</td>
+                          <td className="py-[5px] text-[14px]">
+                            {col2("text_2")}
+                          </td>
+                          <td className="py-[5px] text-[14px]">
+                            {col2("text_3")}
+                          </td>
                         </tr>
                         <tr className="bg-white border-b border-blue-500">
-                          <td className="py-2 px-4 text-red-500">
+                          <td className="py-[5px] text-[14px] text-red-500">
                             {`*`}
                             <span className="text-black">{col3("text_1")}</span>
                           </td>
-                          <td className="py-2 px-4">{col3("text_2")}</td>
-                          <td className="py-2 px-4">{col3("text_3")}</td>
+                          <td className="py-[5px] text-[14px]">
+                            {col3("text_2")}
+                          </td>
+                          <td className="py-[5px] text-[14px]">
+                            {col3("text_3")}
+                          </td>
                         </tr>
                         <tr className="bg-white border-b border-blue-500">
-                          <td className="py-2 px-4 text-red-500">
+                          <td className="py-[5px] text-[14px] text-red-500">
                             {`*`}
                             <span className="text-black">{col4("text_1")}</span>
                             {`*`}
                           </td>
-                          <td className="py-2 px-4">{col4("text_2")}</td>
-                          <td className="py-2 px-4">{col4("text_3")}</td>
+                          <td className="py-[5px] text-[14px]">
+                            {col4("text_2")}
+                          </td>
+                          <td className="py-[5px] text-[14px]">
+                            {col4("text_3")}
+                          </td>
                         </tr>
                       </tbody>
                     </table>
